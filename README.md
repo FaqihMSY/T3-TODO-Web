@@ -1,29 +1,40 @@
-# Create T3 App
+# TO DO List app
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A simple To-Do List application built using TypeScript, Tailwind, and Shadcn that inspired by Todoist app.
 
-## What's next? How do I make an app with this?
+## How to Use It
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- **Add a Task**: Simply type in the input field and click the plus icon button.
+- **Set Priority**: Use the dropdown menu to select the priority level.
+- **Erase a Task**: Click the trash icon button.
+- **Mark as Completed**: Click the checkbox to mark a task as completed.
+- **Uncheck**: Click the checked checkbox to unmark a task.
+- **Edit a Task**: Click the pencil icon to start editing.
+- **Save Changes**: Click the green pencil icon button to save the edited task.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Features
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- **Priorities**: Tasks can be assigned a priority (Urgent, Medium, or Not Urgent).
+- **Edit Tasks**: Edit the task name and priority.
+- **Task Completion**: Mark tasks as completed and uncompleted.
+- **Responsive Design**: Built with Tailwind for a responsive and clean UI.
 
-## Learn More
+## Installation
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/T3_TODO_Web.git
+   cd ./T3_TODO_Web
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+2. Install Depedency
+   yarn install
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+3. Start Developmen Server
+   yarn dev
 
-## How do I deploy this?
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+**minus** of this web, not have time picker (but have date picker "i'm not use it because useless") and not flexible as a real to do list(especially Todoist "i use for my daily life")
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+License
+This project is licensed under the KAT ITB lisence.
