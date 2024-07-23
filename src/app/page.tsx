@@ -1,5 +1,5 @@
 import React from "react";
-import TaskManager from "./_components/taskManager";
+import TaskManager from "./taskManager";
 
 function Page() {
   return (
